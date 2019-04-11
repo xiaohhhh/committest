@@ -12,7 +12,7 @@ const sleep = function(sec) {
 (async () => {
 
     let i=0;
-    for (i=0;i<10000;i++) {
+    for (i=0;i<100000;i++) {
         try {
         
             fs.appendFileSync('./aa', 'addText')
